@@ -80,8 +80,7 @@ footer{
     margin-top: 20px;
 }
 main{
-    width: 940px;
-    margin: 0 auto;
+
 }
 form{
     margin: 40px 0;
@@ -142,6 +141,14 @@ td, th{
     clear: left;
 
 }
+
+
+.principal{
+    padding: 3em, 0;
+    background: #fefefe;
+     width: 940px;
+    margin: 0 auto;
+}
 .principal p{
     margin: 0 0 1em;
 }
@@ -154,10 +161,16 @@ td, th{
 .utensilios{
     width: 120px;
     float: left;
-    margin: 0 20px 2px 0;
+    margin: 0 20px 20px 0;
 }
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#fefefe, #BBBBBB);
+
+}
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
 }
 .mapa p{
     margin: 0 0 2em;
@@ -165,6 +178,8 @@ td, th{
 }
 .beneficios{
     padding: 3em 0;
+    background: #888888;
+
 }
 .conteudo-beneficios{
     width: 640px;
@@ -180,6 +195,9 @@ td, th{
 }
 .itens:first-child{
     font-weight: bold;
+}
+.itens::before{
+    content: "⭐";
 }
 .imagem-beneficios{
     width: 60%;
